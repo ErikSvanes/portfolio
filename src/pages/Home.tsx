@@ -4,7 +4,7 @@ const Home = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div style={{ border: "1px solid green" }}>
+    <div className="w-[60%] border border-green-500">
       <h1>Erik Svanes</h1>
       <div>
         <button onClick={() => setCount((count) => count + 2)}>
