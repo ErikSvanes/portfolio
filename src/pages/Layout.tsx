@@ -1,5 +1,5 @@
 import { Outlet, NavLink } from "react-router-dom";
-import galaxyImg from "../assets/galaxy.jpg";
+// import galaxyImg from "../assets/galaxy.jpg";
 
 const links = [
   { link: "/", name: "Home" },
