@@ -1,4 +1,5 @@
 import { Outlet, NavLink } from "react-router-dom";
+import galaxyImg from "../assets/galaxy.jpg";
 
 const links = [
   { link: "/", name: "Home" },
@@ -8,8 +9,9 @@ const links = [
 
 const Layout = () => {
   return (
-    <div className="w-[100vw] h-[100vh] bg-black">
-      <div className="absolute w-[100%] flex justify-center mt-4 rounded-xl bg-black">
+    <div className="w-[100vw] h-[100vh] bg-black relative">
+      {/* Navigation */}
+      <div className="absolute w-full flex justify-center mt-4 rounded-xl">
         <nav className="flex gap-4 my-2 mx-4">
           {links.map((link) => {
             return (
@@ -30,7 +32,7 @@ const Layout = () => {
         </nav>
       </div>
 
-      <div className="w-[100%] h-[100%] pt-24 flex justify-center text-white">
+      <div className="w-full h-full pt-24 flex justify-center text-white z-10">
         <Outlet />
       </div>
     </div>

@@ -11,8 +11,8 @@ const Home = () => {
               <h1 className="font-mono text-2xl border-0 border-white">
                 hi i'm Erik
               </h1>
-              <div className="text-6xl transform origin-bottom rotate-[-40deg] translate-y-[-10px] hover:animate-wave cursor-default border-0 border-red-500">
-                ✋🏼
+              <div className="text-6xl translate-y-[-10px] hover:animate-wave cursor-default border-0 border-red-500">
+                👋🏻
               </div>
             </div>
             <div className="font-mono text-lg">Full Stack Developer</div>
